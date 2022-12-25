@@ -66,3 +66,5 @@ scalacOptions += "-deprecation"
 scalacOptions += "-Ypartial-unification"
 
 fork in run := true
+
+buildInfoUsePackageAsPath := true
